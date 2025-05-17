@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "glitch-classification"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+lightning = "^2.5.1.post0"
+h5py = "^3.13.0"
+ipykernel = "^6.29.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
