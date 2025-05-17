@@ -138,4 +138,8 @@ if __name__ == "__main__":
         strategy="auto"   
     )
 
-    trainer.fit(model, train_loader, val_loader)
+    trainer.fit(
+        model, 
+        train_loader, 
+        val_loader
+    )
